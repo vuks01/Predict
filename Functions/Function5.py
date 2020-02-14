@@ -1,5 +1,16 @@
-### Starting a function
 def number_of_tweets_per_day(df):
+    """
+    Returns number of tweets posted per day.
+
+    Args:
+        pandas dataframe
+
+    Returns:
+        new dataframe, grouped by day, with the number of tweets per day
+
+    """
+
+    import pandas as pd
     # Making a copy of the DataFrame
     df1 = df.copy()
     # Extracting a column of dates and turning it into a list

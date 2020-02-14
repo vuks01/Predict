@@ -1,13 +1,25 @@
 def extract_municipality_hashtags(df):
- """Return modified dataframe that has new columns that contain information 
- about the municipality and hashtag included in each tweet.
+    """Return modified dataframe that has new columns that contain information 
+    about the municipality and hashtag included in each tweet.
 
- Args:
-    df(dataframe): datatframe containing tweets and dates.
+    Args:
+        df(dataframe): datatframe containing tweets and dates.
 
- Returns:
-    dataframe: modified with two new columns that contain information about the municipality and hashtag included in each tweet.
- """
+    Returns:
+        dataframe: modified with two new columns that contain information about the municipality and hashtag included in each tweet.
+    """
+    import numpy as np
+    import pandas as pd 
+    mun_dict = {
+    '@CityofCTAlerts' : 'Cape Town',
+    '@CityPowerJhb' : 'Johannesburg',
+    '@eThekwiniM' : 'eThekwini' ,
+    '@EMMInfo' : 'Ekurhuleni',
+    '@centlecutility' : 'Mangaung',
+    '@NMBmunicipality' : 'Nelson Mandela Bay',
+    '@CityTshwane' : 'Tshwane'
+    }
+    
     muni = list(mun_dict.keys())
     df1 = df.copy()
     cities = []

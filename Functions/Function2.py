@@ -15,4 +15,5 @@ def five_num_summary(items):
                 'q3': 36372.0
             }
     """
+    import numpy as np
     return {"max": np.max(items), "median": np.median(items), "min": np.min(items), "q1": np.percentile(items,25), "q3": np.percentile(items,75)}
