@@ -1,7 +1,6 @@
 import pandas as pd
 twitter_url = 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/twitter_nov_2019.csv'
 twitter_df = pd.read_csv(twitter_url)
-twitter_df.head()
 
 def word_splitter(df):
     """splits the sentences in a dataframe's column into a list of the separate words
