@@ -1,6 +1,4 @@
-### START FUNCTION
 def stop_words_remover(df):
-    # your code here
     Tweets_new = []  #empty list to store tweets
     Tweets = list(df['Tweets']) #store tweets in the list
     Tweets_Split = [] #Empty List for appending lists of words for each tweet
@@ -14,4 +12,3 @@ def stop_words_remover(df):
         Tweets_new.append(x)      
     df['Without Stop Words'] = Tweets_new # Insert list of lists where sublists contain splitwords without stopwords into dataframe
     return df
-### END FUNCTION
