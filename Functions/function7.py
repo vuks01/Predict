@@ -1,4 +1,5 @@
 def stop_words_remover(df):
+<<<<<<< HEAD
 
     """ Function which removes english stop words from a tweet.
 
@@ -44,6 +45,8 @@ def stop_words_remover(df):
     ]
 }
 
+=======
+>>>>>>> cba938071a9e83d13c70c956120488d5f1082b39
     Tweets_new = []  #empty list to store tweets
     Tweets = list(df['Tweets']) #store tweets in the list
     Tweets_Split = [] #Empty List for appending lists of words for each tweet
