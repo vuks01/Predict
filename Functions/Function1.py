@@ -1,12 +1,4 @@
 import numpy as np
-import pandas as pd
-ebp_url = 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/electrification_by_province.csv'
-ebp_df = pd.read_csv(ebp_url)
-
-for col, row in ebp_df.iloc[:,1:].iteritems():
-    ebp_df[col] = ebp_df[col].str.replace(',','').astype(int)
-
-ebp_df.head()
 def dictionary_of_metrics(items):
     """ calculate the mean, median, std, variance (var), minimum (min) and maximum(max) input values
         Args:
