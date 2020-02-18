@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from Functions import Function1
 
 def  test_dictionary_of_metrics()
@@ -23,3 +24,7 @@ def  test_dictionary_of_metrics()
                                                                                     'std': 9515.24,
                                                                                     'min': 42034,
                                                                                     'max': 68121}
+=======
+
+
+>>>>>>> b08a1defd8f58eb3c5a1b63bac5c945e48bb1a4a
