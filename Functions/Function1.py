@@ -8,7 +8,7 @@ def dictionary_of_metrics(items):
             it returns a dictionary with the keys and their values as calculated
             
         Examples:
-            five_num_summary(gauteng) == {
+            dictionary_of_metrics(gauteng) == {
                 'mean': 26244.42
                 'median': 24403.5
                 'std': 10400.01
