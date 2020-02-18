@@ -1,12 +1,12 @@
 def date_parser(dates):
-    """
-    Returns date in the format of yyyy-mm-dd
+    
+    """Returns date in the format of yyyy-mm-dd
 
     Args:
        list of datetime strings
 
     Returns:
-        a list of strings where each element now only contains only the date in yyyy-mm-dd format 
+         list of strings where each element now only contains only the date in yyyy-mm-dd format 
     """
     dates_only =[]
     for i in dates:               #iterate through the date given in the argument

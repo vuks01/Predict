@@ -1,4 +1,5 @@
 def extract_municipality_hashtags(df):
+    
     """Return modified dataframe that has new columns that contain information 
     about the municipality and hashtag included in each tweet.
 

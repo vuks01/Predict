@@ -1,10 +1,11 @@
 def word_splitter(df):
+    
     """splits the sentences in a dataframe's column into a list of the separate words
         Args:
             It should take a pandas dataframe that contain a column, named 'Tweets' as an input. Split the tweets and also change the case to lowercase
 
-        returns:
-            The function should modify the input dataframe directly and return the modified dataframe.
+        Returns:
+             function modifiesthe input dataframe directly and return the modified dataframe.
         Example:
             0        @BongaDlulane Please send an email to mediades...        2019-11-29 12:50:54        [@bongadlulane, please, send, an, email, to, m...
             1        @saucy_mamiie Pls log a call on 0860037566               2019-11-29 12:46:53        [@saucy_mamiie, pls, log, a, call, on, 0860037...

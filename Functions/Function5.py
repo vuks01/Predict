@@ -1,6 +1,6 @@
 def number_of_tweets_per_day(df):
-    """
-    Returns number of tweets posted per day.
+    
+    """Returns number of tweets posted per day.
 
     Args:
         pandas dataframe
