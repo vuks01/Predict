@@ -1,7 +1,3 @@
-import pandas as pd
-twitter_url = 'https://raw.githubusercontent.com/Explore-AI/Public-Data/master/Data/twitter_nov_2019.csv'
-twitter_df = pd.read_csv(twitter_url)
-
 def word_splitter(df):
     """splits the sentences in a dataframe's column into a list of the separate words
         Args:
@@ -16,7 +12,8 @@ def word_splitter(df):
             3        Before leaving the office this afternoon, head...        2019-11-29 12:33:36        [before, leaving, the, office, this, afternoon...
             4        #ESKOMFREESTATE #MEDIASTATEMENT : ESKOM SUSPEN...        2019-11-29 12:17:43        [#eskomfreestate, #mediastatement, :, eskom, s...
          """
-
+    import pandas as pd
+    
     df1 = df.copy() # Make Copy Of Dataframe
     Tweets = list(df1['Tweets']) # Place Tweets in List
     Tweets_Split = [] # Empty List for appending lists of words for each tweet
