@@ -1,8 +1,6 @@
-def stop_words_remover(df):
-<<<<<<< HEAD
+def stop_words_remover(df): 
 
     """ Function which removes english stop words from a tweet.
-
     Args:
        pandas dataframe
 
