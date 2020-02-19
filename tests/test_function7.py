@@ -4,6 +4,7 @@ def test_stop_words_remover():
 
     """
     Make sure that stop_words_remover works correctly
+    
     """
 
     assert Function7.stop_words_remover(twitter_df.copy()).loc[0, "Without Stop Words"] == ['@bongadlulane', 'send', 'email', 'mediadesk@eskom.co.za'], 'incorrect'
