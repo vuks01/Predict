@@ -12,8 +12,9 @@ def word_splitter(df):
             2        @BongaDlulane Query escalated to media desk.             2019-11-29 12:46:10        [@bongadlulane, query, escalated, to, media, d...
             3        Before leaving the office this afternoon, head...        2019-11-29 12:33:36        [before, leaving, the, office, this, afternoon...
             4        #ESKOMFREESTATE #MEDIASTATEMENT : ESKOM SUSPEN...        2019-11-29 12:17:43        [#eskomfreestate, #mediastatement, :, eskom, s...
+            
          """
-         
+
     import pandas as pd
     
     df1 = df.copy() # Make Copy Of Dataframe
