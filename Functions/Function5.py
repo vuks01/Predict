@@ -7,7 +7,7 @@ def number_of_tweets_per_day(df):
 
     Returns:
         new dataframe, grouped by day, with the number of tweets per day
-
+        
     """
 
     import pandas as pd
