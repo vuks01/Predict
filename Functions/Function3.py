@@ -7,6 +7,7 @@ def date_parser(dates):
 
     Returns:
          list of strings where each element now only contains only the date in yyyy-mm-dd format 
+         
     """
     dates_only =[]
     for i in dates:               #iterate through the date given in the argument
