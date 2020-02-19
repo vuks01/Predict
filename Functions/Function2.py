@@ -7,7 +7,8 @@ def five_num_summary(items):
             
         Returns:
              returns a dictionary with the keys and their values as calculated
-    
+
+             
     """
 
     return {"max": np.max(items), "median": np.median(items), "min": np.min(items), "q1": np.percentile(items,25), "q3": np.percentile(items,75)}
