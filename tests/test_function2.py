@@ -4,6 +4,7 @@ def test_five_num_summary(items):
 
       """
     Make sure that five_num_summary works correctly
+    
     """
 
     assert Function2.five_num_summary([8, 3, 2, 7, 4]) == {'max': 8, 'median': 4.0, 'min': 2, 'q1': 3.0, 'q3': 7.0}, 'incorrect'
