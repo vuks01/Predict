@@ -8,6 +8,7 @@ def extract_municipality_hashtags(df):
 
     Returns:
         dataframe: modified with two new columns that contain information about the municipality and hashtag included in each tweet.
+
     """
     import numpy as np
     import pandas as pd 
